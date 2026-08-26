@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Secrets
+.env
+.env.local
+
+# Local Actual Budget data cache (contains real financial data)
+actual-data/
+
+# Generated data (contains real transaction labels)
+transactions.json
+embeddings.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log

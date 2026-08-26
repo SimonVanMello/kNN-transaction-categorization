@@ -1,0 +1,21 @@
+{
+  "name": "knn-transaction-categorization",
+  "version": "1.0.0",
+  "description": "Proof of concept: categorize bank transactions with a kNN search over embeddings of already-categorized ones",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "export": "tsx --env-file-if-exists=.env src/export.ts",
+    "embed": "tsx --env-file-if-exists=.env src/embed.ts",
+    "evaluate": "tsx --env-file-if-exists=.env src/evaluate.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@actual-app/api": "^26.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.3.0",
+    "tsx": "^4.23.12",
+    "typescript": "^5.9.0"
+  }
+}
